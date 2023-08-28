@@ -168,3 +168,22 @@ async function fetchSearchWeatherInfo(city) {
         //hW
     }
 }
+{/* <script type="module"> */}
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyDff1Z7JusIq78_sJsCJR2P2HYHmzW2wPM",
+    authDomain: "webapp-8c957.firebaseapp.com",
+    projectId: "webapp-8c957",
+    storageBucket: "webapp-8c957.appspot.com",
+    messagingSenderId: "450085534769",
+    appId: "1:450085534769:web:f6d2c64789572db099a910"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+// </script>
